@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Online Hotel Booking</title>
+    <style>
+        body {
+            background-color: #e6f2ff;
+
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+        }
+
+        .mercure-img {
+            height: 230px;
+            width: 370px;
+            display: inline;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .card {
+
+            height: 550px;
+            width: 370px;
+            background-color: aliceblue;
+            border-radius: 20px;
+            border: solid 2px #e6e6e6;
+            box-shadow: #999999 8px 2px 8px 2px;
+        }
+
+        .card:hover {
+
+            height: 570px;
+            width: 370px;
+            background-color: rgb(195, 217, 237);
+            border-radius: 20px;
+            border: solid 2px #e6e6e6;
+            box-shadow: #605e5e 8px 2px 8px 2px;
+           
+        }
+
+        .star-img {
+            height: 25px;
+        }
+
+        .heading {
+            text-align: center;
+            margin-top: 0%;
+        }
+
+        .room-benefits {
+            margin-left: 5px;
+        }
+
+        .benefits {
+            display: inline-block;
+            text-align: center;
+            border: solid 2px #e6e6e6;
+            border-radius: 5px;
+            margin-left: 15px;
+            padding: 5px;
+        }
+
+        .rs-heading {
+            color: tomato;
+        }
+
+        .ru-pragraph {
+            font-size: 30px;
+        }
+
+        .top-heading {
+            text-align: center;
+        }
+
+        .ru-div {
+            display: flex;
+        }
+
+        .rup-del {
+            font-size: 18px;
+        }
+
+        .paragraph {
+            font-size: 28px;
+        }
+
+        .book-btn {
+            display: block;
+            background-color: tomato;
+            height: 45px;
+            width: 100px;
+            padding: 3px;
+            margin-left: auto;
+            margin-right: 20px;
+            margin-bottom: 50px;
+            border: solid 2px;
+            color: white;
+            font-size: 15px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .book-btn:hover {
+            display: block;
+            background-color: tomato;
+            height: 48px;
+            width: 105px;
+            padding: 3px;
+            margin-left: auto;
+            margin-right: 20px;
+            margin-bottom: 50px;
+            border: solid 2px  tomato;
+            color: white;
+            font-size: 15px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .book-div {
+            display: flex;
+        }
+
+        .free {
+            color: #00b300;
+        }
+
+        .location-info {
+            color: blue;
+            cursor: pointer;
+        }
+
+        .info-div {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="top-heading">Visit Malaysia </h1>
+    <div class="container">
+        <div class="card">
+            <img src="./img/mercure.webp" alt="Mercutre-img" class="mercure-img">
+            <div class="info-div">
+                <h2 class="heading">Mercure Langkawi Pantai Cenang</h2>
+                <img src="./img/star.png" alt=" star" class="star-img">
+                <img src="./img/star.png" alt=" star" class="star-img">
+                <img src="./img/star.png" alt=" star" class="star-img">
+                <img src="./img/star.png" alt=" star" class="star-img">
+                <img src="./img/star.png" alt=" star" class="star-img">4.7<br>
+                <img src="./img/location.png" alt="location-img" class="location">
+                <span class="location-info">Pantai Cenang, Langkawi, Malaysia, 7000</span>
+                <h3 class="room-benefits"><b>Available room benefits :</b></h3>
+                <span class="benefits">Breakfast </span> <span class="benefits">Parking </span> <span class="benefits">
+                    Free wifi</span>
+
+
+
+                <div class="ru-div">
+                    <p>
+                        <span class="paragraph">
+                            <b>
+                                Rs.
+                                <span class="rs-heading"> 4,860
+                                </span>
+                            </b>
+                        </span>
+                        <span class="rup-del">&nbsp; &nbsp;
+                            <i>
+                                <del>10,200</del>
+                            </i>
+                        </span>
+                    </p>
+                </div>
+                <div class="book-div">
+                    <span class="free">+Free Cancelation</span>
+                    <button class="book-btn">
+                        Book Now
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <img src="./img/dvila.webp" alt="camar-img" class="mercure-img">
+            <div class="info-div">
+                <h2 class="heading">DVilla Guesthouse Langkawi</h2>
+                <img src="./img/star.png" alt=" star" class="star-img">
+                <img src="./img/star.png" alt=" star" class="star-img">
+                <img src="./img/star.png" alt=" star" class="star-img">
+                <img src="./img/star.png" alt=" star" class="star-img">
+                <img src="./img/star.png" alt=" star" class="star-img">4.9<br>
+                <img src="./img/location.png" alt="location-img" class="location">
+                <span class="location-info">Ayer Hangat, Langkawi, Malaysia, 07000</span>
+                <h3 class="room-benefits"><b>Available room benefits :</b></h3>
+                <span class="benefits">Breakfast </span> <span class="benefits">Parking </span> <span
+                    class="benefits">Free wifi</span>
+
+                <div class="ru-div">
+                    <p>
+                        <span class="paragraph">
+                            <b>
+                                Rs.
+                                <span class="rs-heading"> 3,650
+                                </span>
+                            </b>
+                        </span>
+                        <span class="rup-del">&nbsp; &nbsp;
+                            <i>
+                                <del>8,300</del>
+                            </i>
+                        </span>
+                    </p>
+                </div>
+
+                <div class="book-div">
+                    <span class="free">+Free Cancelation</span>
+                    <button class="book-btn">
+                        Book Now
+                    </button>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="card">
+            <img src="./img/coconut.webp" alt="resorts-img" class="mercure-img">
+            <div class="info-div">
+                <h2 class="heading">Coconut Beach Villa Langkawi</h2>
+                <img src="./img/star.png" alt=" star" class="star-img">
+                <img src="./img/star.png" alt=" star" class="star-img">
+                <img src="./img/star.png" alt=" star" class="star-img">
+                <img src="./img/star.png" alt=" star" class="star-img">4.0<br>
+                <img src="./img/location.png" alt="location-img" class="location">
+                <span class="location-info">Langkawi Airport, Langkawi, Malaysia, 07000</span>
+                <h3 class="room-benefits"><b>Available room benefits :</b></h3>
+                <span class="benefits">Breakfast </span> <span class="benefits">Parking </span> <span
+                    class="benefits">Free wifi</span>
+
+                <div class="ru-div">
+                    <p>
+                        <span class="paragraph">
+                            <b>
+                                Rs.
+                                <span class="rs-heading"> 8,860
+                                </span>
+                            </b>
+                        </span>
+                        <span class="rup-del">&nbsp; &nbsp;
+                            <i>
+                                <del>11,200</del>
+                            </i>
+                        </span>
+                    </p>
+                </div>
+                <div class="book-div">
+                    <span class="free">+Free Cancelation</span>
+                    <button class="book-btn">
+                        Book Now
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
